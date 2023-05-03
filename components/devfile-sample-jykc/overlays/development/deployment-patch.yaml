@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-jykc
+  namespace: karthik-jk-dev-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/karthik-jk-dev-tenant/my-app/devfile-sample-jykc@sha256:55d1b5e61482a39c16c62ef2db7862137c2fa38b14f3f8cefe064c247b996645
+        name: my-nodejs
+        resources: {}
+status: {}
