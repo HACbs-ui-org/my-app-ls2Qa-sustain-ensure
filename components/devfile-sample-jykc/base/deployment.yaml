@@ -26,7 +26,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jykc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoupuicluster/karthik-jk-dev-tenant/my-app/devfile-sample-jykc@sha256:55d1b5e61482a39c16c62ef2db7862137c2fa38b14f3f8cefe064c247b996645
         name: my-nodejs
         ports:
         - containerPort: 3001
