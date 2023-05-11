@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: devfile-sample-jykc
-  namespace: karthik-jk-dev-tenant
 spec:
   replicas: 1
   selector: {}
